@@ -66,6 +66,12 @@ An end-to-end parameter estimation framework designed as a pure, naked mathemati
 
 <img width="1917" height="602" alt="image" src="https://github.com/user-attachments/assets/3ff1657c-f3d4-4449-a786-3553c6b74b7f" />
 
+<img width="1280" height="704" alt="ezgif com-video-to-gif-converter (2)" src="https://github.com/user-attachments/assets/5b7aea7d-7432-4885-96b3-d1e9515b2921" />
+
+<img width="1917" height="711" alt="image" src="https://github.com/user-attachments/assets/3525bd75-fc44-4fd1-b457-7bff6ba7eff5" />
+
+
+<img width="1917" height="666" alt="image" src="https://github.com/user-attachments/assets/5ec85441-9ebc-48d9-a080-6fbb206bfd91" />
 
 
 
