@@ -20,6 +20,15 @@ An end-to-end parameter estimation framework designed as a pure, naked mathemati
 <img width="1912" height="927" alt="image" src="https://github.com/user-attachments/assets/6b49358f-d3c7-40dd-b91a-37c3c3df0d11" />
 
 
+| Joint Component | Accuracy Metric |
+| :--- | :--- |
+| **Joint 1 (Base Yaw)** | 99.99 % |
+| **Joint 2 (Shoulder)** | 99.98 % |
+| **Joint 3 (Elbow)** | 99.90 % |
+| **OVERALL CONSTRAINED ACCURACY** | **99.99 %** |
+
+
+
 
 
 
