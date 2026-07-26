@@ -11,13 +11,27 @@ An end-to-end parameter estimation framework designed as a pure, naked mathemati
 * **Decoupling Core Math from Chaos**: Proves that the symbolic regressor matrices ($Y_b$), D-optimality trajectory excitation, and convex positive-definite optimization loops are structurally flawless before the toolbox becomes unviable due to real-world chaos.
 * **Proving Physical Realism**: Demonstrates that the parameter estimation pipeline accurately reconstructs symmetric positive-definite mass matrices ($M(q) > 0$) using pure, uncorrupted input-output data verified directly by native MATLAB blocks.
 
-<img width="1525" height="718" alt="image" src="https://github.com/user-attachments/assets/81495670-a90e-4039-a9b5-80639f7c14b8" />
 
+-------------
+<img width="1525" height="718" alt="image" src="https://github.com/user-attachments/assets/81495670-a90e-4039-a9b5-80639f7c14b8" />
+Figure 1 : The Inertial Parameter Excitation Configuration.
+
+-----------
 <img width="1917" height="927" alt="image" src="https://github.com/user-attachments/assets/a2d909d6-ba24-419b-ad0f-d3efe0d9a880" />
+
+Figure 2 : The Excitation Trajectory
+
+-------------
 
 <img width="1280" height="704" alt="Step_3_ParameterExcitation-ezgif com-video-to-gif-converter (1)" src="https://github.com/user-attachments/assets/0d65c915-5845-4457-a9e8-20640900602f" />
 
+Figure 3 : The robot movemnet due to the excitation trajectory
+------------
+
 <img width="1912" height="927" alt="image" src="https://github.com/user-attachments/assets/6b49358f-d3c7-40dd-b91a-37c3c3df0d11" />
+
+Figure 4 : The validation against the excitation torque (This plot can not be taken as standalone validation due to the problems of overfitting)
+
 
 ### Against The excitation trajectory
 | Joint Component | Accuracy Metric |
@@ -26,8 +40,13 @@ An end-to-end parameter estimation framework designed as a pure, naked mathemati
 | **Joint 2 (Shoulder)** | 99.98 % |
 | **Joint 3 (Elbow)** | 99.90 % |
 | **OVERALL CONSTRAINED ACCURACY** | **99.99 %** |
-
+---------
 <img width="1917" height="921" alt="image" src="https://github.com/user-attachments/assets/6525912d-469e-4f71-bc7e-d814effcc4bd" />
+
+Figure 5 : A validation experiment result against different trajectory (slow)
+
+
+
 
 ### Validation Experiment 1
 
@@ -38,7 +57,11 @@ An end-to-end parameter estimation framework designed as a pure, naked mathemati
 | **Joint 3 (Elbow)** | 99.63 % |
 | **OVERALL CROSS-VALIDATION ACCURACY** | **99.95 %** |
 
+------------
+
 <img width="1917" height="923" alt="image" src="https://github.com/user-attachments/assets/c37820dd-86ff-4311-96d0-5a48bdcd1de7" />
+
+Figure 6 : Another validation experiment result against different trajectory (fast)
 
 ### Validation Experiment 2
 
@@ -50,30 +73,72 @@ An end-to-end parameter estimation framework designed as a pure, naked mathemati
 | **OVERALL CROSS-VALIDATION ACCURACY** | **99.96 %** |
 
 
-<img width="1861" height="723" alt="image" src="https://github.com/user-attachments/assets/0edecf16-d7a5-47c3-9324-8103fc49817e" />
+-------------
 
+
+<img width="1860" height="738" alt="image" src="https://github.com/user-attachments/assets/0fb1a4d9-cea6-4b7c-82e6-164e1a92fb52" />
+
+Figure 7 : The Computed torque controller configuration surface level
+
+------------
 <img width="1013" height="633" alt="image" src="https://github.com/user-attachments/assets/0842467b-e584-43f5-8cce-eee311ad972d" />
+
+Figure 8 : The Computed Torque controller with the estimated inverse dynamics matrices
+
+
+-------------
 
 
 <img width="1280" height="704" alt="ezgif com-video-to-gif-converter (1)" src="https://github.com/user-attachments/assets/8342ef91-0c2b-46b2-8ffe-5764c68bf511" />
+
+Figure 9 : Testing the robot arm after the implementation of The CTC
+
+-----------
 
 
 
 <img width="1917" height="640" alt="image" src="https://github.com/user-attachments/assets/7d4456e6-f8d5-4e25-b851-c39761ab1421" />
 
+Figure 10 : The desired joint position commands and the tracking error with the inverse dynamics matrices
+
+------
+
+
 
 <img width="1117" height="711" alt="image" src="https://github.com/user-attachments/assets/0eaaa606-f8fb-46b3-889c-31f4fa821479" />
 
+Figure 11 : The Computed Torque Controller with Robotics toolbox inverse dynamics blocks
+
+--------------
+
 <img width="1917" height="602" alt="image" src="https://github.com/user-attachments/assets/3ff1657c-f3d4-4449-a786-3553c6b74b7f" />
 
+Figure 12 : THe desired joint position commands and the tracking error of the MATLAB Robotics toolbox inverse dynamics blocks
+
+
+---------
+
 <img width="1280" height="704" alt="ezgif com-video-to-gif-converter (2)" src="https://github.com/user-attachments/assets/5b7aea7d-7432-4885-96b3-d1e9515b2921" />
+
+Figure 13 : Testing the CTC against different trajectory
+
+
+--------
+
+
 
 <img width="1917" height="711" alt="image" src="https://github.com/user-attachments/assets/3525bd75-fc44-4fd1-b457-7bff6ba7eff5" />
 
 
+Figure 14 : The desired joint position commands and the tracking error with Estimated inverse dynamics matrices 
+
+-----
 <img width="1917" height="666" alt="image" src="https://github.com/user-attachments/assets/5ec85441-9ebc-48d9-a080-6fbb206bfd91" />
 
+Figure 15 : The desired joint position commands and the tracking error with the MATLAB Robotics toolbox inverse dynamics matrices 
 
+
+--------
 
 
 
