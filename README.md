@@ -11,6 +11,18 @@ An end-to-end parameter estimation framework designed as a pure, naked mathemati
 * **Decoupling Core Math from Chaos**: Proves that the symbolic regressor matrices ($Y_b$), D-optimality trajectory excitation, and convex positive-definite optimization loops are structurally flawless before the toolbox becomes unviable due to real-world chaos.
 * **Proving Physical Realism**: Demonstrates that the parameter estimation pipeline accurately reconstructs symmetric positive-definite mass matrices ($M(q) > 0$) using pure, uncorrupted input-output data verified directly by native MATLAB blocks.
 
+<img width="1525" height="718" alt="image" src="https://github.com/user-attachments/assets/81495670-a90e-4039-a9b5-80639f7c14b8" />
+
+<img width="1917" height="927" alt="image" src="https://github.com/user-attachments/assets/a2d909d6-ba24-419b-ad0f-d3efe0d9a880" />
+
+<img width="1280" height="704" alt="Step_3_ParameterExcitation-ezgif com-video-to-gif-converter (1)" src="https://github.com/user-attachments/assets/0d65c915-5845-4457-a9e8-20640900602f" />
+
+<img width="1912" height="927" alt="image" src="https://github.com/user-attachments/assets/6b49358f-d3c7-40dd-b91a-37c3c3df0d11" />
+
+
+
+
+
 
 ## 🛠 Pipeline & File Architecture
 
@@ -24,6 +36,7 @@ The repository is structured sequentially to transition the manipulator from raw
 * **Step_2_Excitation_Trajectory.m**: Runs a non-linear D-optimality trajectory optimization loop via `fmincon` using an analytical Finite Fourier Series (FFS) to enforce absolute zero boundary conditions ($q(0)=0, \dot{q}(0)=0, \ddot{q}(0)=0$).
 * **Step_3_ParameterExcitation.slx**: Simulates the trajectory in a noise-free, friction-free environment to generate ideal tracking torques.
 * **Step_4_Data_Extraction.slx**: Extracts the resulting noise-free joint kinematic states (Position, Velocity, Acceleration) and perfect torque profiles.
+
 
 ### 3. Dynamics & Convex Identification
 * **Step_5_Parameter_Estimation.m**: Executes a constrained interior-point optimization algorithm to estimate physical parameters while guaranteeing a positive-definite mass matrix across a workspace coordinate grid.
