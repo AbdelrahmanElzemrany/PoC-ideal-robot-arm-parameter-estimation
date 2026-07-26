@@ -19,13 +19,43 @@ An end-to-end parameter estimation framework designed as a pure, naked mathemati
 
 <img width="1912" height="927" alt="image" src="https://github.com/user-attachments/assets/6b49358f-d3c7-40dd-b91a-37c3c3df0d11" />
 
-
+### Against The excitation trajectory
 | Joint Component | Accuracy Metric |
 | :--- | :--- |
 | **Joint 1 (Base Yaw)** | 99.99 % |
 | **Joint 2 (Shoulder)** | 99.98 % |
 | **Joint 3 (Elbow)** | 99.90 % |
 | **OVERALL CONSTRAINED ACCURACY** | **99.99 %** |
+
+<img width="1917" height="921" alt="image" src="https://github.com/user-attachments/assets/6525912d-469e-4f71-bc7e-d814effcc4bd" />
+
+### Validation Experiment 1
+
+| Joint Component | Fit Percentage / Accuracy |
+| :--- | :--- |
+| **Joint 1 (Base Yaw)** | 99.98 % |
+| **Joint 2 (Shoulder)** | 99.92 % |
+| **Joint 3 (Elbow)** | 99.63 % |
+| **OVERALL CROSS-VALIDATION ACCURACY** | **99.95 %** |
+
+<img width="1917" height="923" alt="image" src="https://github.com/user-attachments/assets/c37820dd-86ff-4311-96d0-5a48bdcd1de7" />
+
+### Validation Experiment 2
+
+| Joint Component | Fit Percentage |
+| :--- | ---: |
+| **Joint 1 (Base Yaw)** | 99.98 % |
+| **Joint 2 (Shoulder)** | 99.97 % |
+| **Joint 3 (Elbow)** | 99.79 % |
+| **OVERALL CROSS-VALIDATION ACCURACY** | **99.96 %** |
+
+
+<img width="1861" height="723" alt="image" src="https://github.com/user-attachments/assets/0edecf16-d7a5-47c3-9324-8103fc49817e" />
+
+<img width="1013" height="633" alt="image" src="https://github.com/user-attachments/assets/0842467b-e584-43f5-8cce-eee311ad972d" />
+
+
+<img width="1280" height="704" alt="ezgif com-video-to-gif-converter (1)" src="https://github.com/user-attachments/assets/8342ef91-0c2b-46b2-8ffe-5764c68bf511" />
 
 
 
