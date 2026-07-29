@@ -26,6 +26,7 @@ Figure 2 : The Excitation Trajectory
 <img width="1280" height="704" alt="Step_3_ParameterExcitation-ezgif com-video-to-gif-converter (1)" src="https://github.com/user-attachments/assets/0d65c915-5845-4457-a9e8-20640900602f" />
 
 Figure 3 : The robot movemnet due to the excitation trajectory
+
 ------------
 
 <img width="1912" height="927" alt="image" src="https://github.com/user-attachments/assets/6b49358f-d3c7-40dd-b91a-37c3c3df0d11" />
